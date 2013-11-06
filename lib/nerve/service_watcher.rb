@@ -19,7 +19,6 @@ module Nerve
       @name = service['name']
 
       @expires = false
-      @expires_at = Time.now.to_i + 60
       @sha1 = service['sha1']
       @last_check = 0
 
